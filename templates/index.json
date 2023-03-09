@@ -1,7 +1,57 @@
 {
   "sections": {
+    "9214e56e-8f46-4395-987e-cc4563d7e8af": {
+      "type": "slider",
+      "blocks": {
+        "5f3c4628-483a-43a5-b56f-392cf19178ca": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cosmetic-lipstick-branding-mockup_439185-9166.jpg"
+          }
+        },
+        "0787bfba-b64b-4281-97ac-47c41ac76414": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eyebrow-pencil-with-box-packaging-mockup_439185-2203.jpg"
+          }
+        },
+        "8ac60021-d14d-4d74-8425-5581e4350896": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/transparent-glossy-plastic-lip-gloss-tube-mockup_439185-6125.jpg"
+          }
+        },
+        "282b1c13-6779-4bad-a252-a0bdfae3fedc": {
+          "type": "slide",
+          "settings": {
+          }
+        },
+        "29b5aa5f-676f-4a2e-943a-e8d06885bcd0": {
+          "type": "slide",
+          "settings": {
+          }
+        },
+        "7d690213-0a17-4d46-8e92-4d11485a1c85": {
+          "type": "slide",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "5f3c4628-483a-43a5-b56f-392cf19178ca",
+        "0787bfba-b64b-4281-97ac-47c41ac76414",
+        "8ac60021-d14d-4d74-8425-5581e4350896",
+        "282b1c13-6779-4bad-a252-a0bdfae3fedc",
+        "29b5aa5f-676f-4a2e-943a-e8d06885bcd0",
+        "7d690213-0a17-4d46-8e92-4d11485a1c85"
+      ],
+      "settings": {
+        "slider_title": "タイトルが入ります。"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -21,7 +71,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -37,7 +87,6 @@
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -49,6 +98,7 @@
     },
     "rich_text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -69,6 +119,8 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -77,26 +129,35 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "background-1",
+        "full_width": false,
         "show_view_all": false,
-        "swipe_on_mobile": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "collection-0": {
           "type": "collection",
@@ -128,6 +189,7 @@
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -135,10 +197,12 @@
     },
     "video": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -148,6 +212,7 @@
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -192,15 +257,16 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "9214e56e-8f46-4395-987e-cc4563d7e8af",
     "image_banner",
     "rich_text",
     "featured_collection",

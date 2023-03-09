@@ -1,0 +1,55 @@
+<h1 class="slider_title">{{ section.settings.slider_title }}</h1>
+
+<div class="slider swiper-wrapper">
+  {%- for block in section.blocks -%}
+    <div class="swiper-slide">
+      {%- if block.settings.image != blank -%}
+        <img src="{{ block.settings.image | img_url: '2049x' }}" loading="lazy">
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+
+      {%- if block.settings.button_label != blank and block.settings.button_link != blank -%}
+        <a href="{{ block.settings.button_link }}" class="slideshow__btn">
+          {{- block.settings.button_label | escape -}}
+        </a>
+      {%- endif -%}
+    </div>
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "スライダー付き画像",
+  "class": "slide-wrap",
+  "settings": [
+    {
+      "type": "text",
+      "id": "slider_title",
+      "default": "タイトルが入ります。",
+      "label": "タイトル"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "画像",
+      "limit": 9,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "画像"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "スライダー付き画像",
+      "category": "画像",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

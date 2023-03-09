@@ -38,6 +38,26 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/plastic-lip-gloss-tube-mockup_439185-2442.jpg"
           }
+        },
+        "1d9fb0b8-f886-4310-aa81-d85929a4ecfa": {
+          "type": "slide",
+          "settings": {
+          }
+        },
+        "fbf0af3e-7f70-4f2d-80e7-bb1e1e7add8e": {
+          "type": "slide",
+          "settings": {
+          }
+        },
+        "218a8987-5fc9-4849-bb86-b1215875d756": {
+          "type": "slide",
+          "settings": {
+          }
+        },
+        "d74e53a7-f8fc-4a8f-bb87-6e3d98914067": {
+          "type": "slide",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -46,7 +66,11 @@
         "8ac60021-d14d-4d74-8425-5581e4350896",
         "282b1c13-6779-4bad-a252-a0bdfae3fedc",
         "29b5aa5f-676f-4a2e-943a-e8d06885bcd0",
-        "7d690213-0a17-4d46-8e92-4d11485a1c85"
+        "7d690213-0a17-4d46-8e92-4d11485a1c85",
+        "1d9fb0b8-f886-4310-aa81-d85929a4ecfa",
+        "fbf0af3e-7f70-4f2d-80e7-bb1e1e7add8e",
+        "218a8987-5fc9-4849-bb86-b1215875d756",
+        "d74e53a7-f8fc-4a8f-bb87-6e3d98914067"
       ],
       "settings": {
         "slider_title": "タイトルが入ります"

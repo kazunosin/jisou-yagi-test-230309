@@ -5,6 +5,8 @@
     <div>
       {%- if block.settings.image != blank -%}
         <img src="{{ block.settings.image | img_url: '2000x2000' }}" loading="lazy">
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </div>
   {%- endfor -%}

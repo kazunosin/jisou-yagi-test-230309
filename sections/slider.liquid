@@ -1,18 +1,10 @@
 <h1 class="slider_title">{{ section.settings.slider_title }}</h1>
 
-<div class="slider swiper-wrapper">
+<div class="slider">
   {%- for block in section.blocks -%}
-    <div class="swiper-slide">
+    <div>
       {%- if block.settings.image != blank -%}
-        <img src="{{ block.settings.image | img_url: '2049x' }}" loading="lazy">
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-
-      {%- if block.settings.button_label != blank and block.settings.button_link != blank -%}
-        <a href="{{ block.settings.button_link }}" class="slideshow__btn">
-          {{- block.settings.button_label | escape -}}
-        </a>
+        <img src="{{ block.settings.image | img_url: '2000x2000' }}" loading="lazy">
       {%- endif -%}
     </div>
   {%- endfor -%}
@@ -34,7 +26,7 @@
     {
       "type": "slide",
       "name": "画像",
-      "limit": 9,
+      "limit": 15,
       "settings": [
         {
           "type": "image_picker",

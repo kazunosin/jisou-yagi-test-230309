@@ -272,6 +272,24 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "167877230651a736f2": {
+      "type": "apps",
+      "blocks": {
+        "0dd4f147-d6be-4e8a-8079-4062d7b3d85e": {
+          "type": "shopify:\/\/apps\/laravel\/blocks\/app-block\/fc5b6f5e-9084-4d79-ae89-078817f32e8a",
+          "settings": {
+            "heading": "Cute Puppy Gallery",
+            "description": "A simple app block that shows a grid of images that can be customized by the merchant. Each image can be selected to show a popup with the full-sized image."
+          }
+        }
+      },
+      "block_order": [
+        "0dd4f147-d6be-4e8a-8079-4062d7b3d85e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -281,6 +299,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "167877230651a736f2"
   ]
 }

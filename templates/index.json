@@ -280,11 +280,7 @@
           "type": "shopify:\/\/apps\/laravel\/blocks\/app-block\/fc5b6f5e-9084-4d79-ae89-078817f32e8a",
           "settings": {
             "heading": "Cute Puppy Gallery",
-            "description": "A simple app block that shows a grid of images that can be customized by the merchant. Each image can be selected to show a popup with the full-sized image.",
-            "image_1": "shopify:\/\/shop_images\/ojigi.gif",
-            "image_2": "shopify:\/\/shop_images\/ojigi.gif",
-            "image_3": "shopify:\/\/shop_images\/ojigi.gif",
-            "image_4": "shopify:\/\/shop_images\/ojigi.gif"
+            "description": "A simple app block that shows a grid of images that can be customized by the merchant. Each image can be selected to show a popup with the full-sized image."
           }
         }
       },
